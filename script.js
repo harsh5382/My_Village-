@@ -25,6 +25,7 @@ function searchUser() {
 
   detailsDiv.innerHTML = "";
 
+  // Case-insensitive match for the user name
   const user = users.find((u) => u.name.toLowerCase() === input);
 
   if (user) {
@@ -49,7 +50,7 @@ function showSuggestions() {
   suggestionsDiv.innerHTML = "";
 
   if (input) {
-    // Filter users where name starts with input
+    // Filter users where name starts with input (case-insensitive)
     const startsWith = users.filter((u) =>
       u.name.toLowerCase().startsWith(input)
     );
