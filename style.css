@@ -83,7 +83,7 @@ button:hover {
   background-color: #f1f1f1;
 }
 
-/* Media Query for Small Screens (600px) */
+/* Media Query for Medium Screens (600px) */
 @media (max-width: 600px) {
   #searchInput,
   #userDetails,
@@ -97,6 +97,28 @@ button:hover {
   }
 }
 
+/* Media Query for Small Screens (480px) */
+@media (max-width: 480px) {
+  #searchInput,
+  #userDetails,
+  #suggestions {
+    width: 95%; /* Slightly smaller width */
+    font-size: 15px; /* Adjust font size */
+  }
+
+  button {
+    width: 95%; /* Full-width button */
+    font-size: 14px;
+    padding: 8px 15px; /* Adjust padding */
+  }
+
+  #userDetails,
+  #suggestions {
+    margin-top: 15px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  }
+}
+
 /* Media Query for Extra Small Screens (430px) */
 @media (max-width: 430px) {
   #searchInput,
@@ -107,7 +129,7 @@ button:hover {
   }
 
   button {
-    width: 100%; /* Full-width button for small screens */
+    width: 100%; /* Full-width button */
     font-size: 13px; /* Further reduce font size */
     padding: 8px 15px; /* Adjust padding */
   }
