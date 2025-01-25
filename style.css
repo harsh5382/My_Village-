@@ -1,28 +1,23 @@
-/* General Styles */
+/* General Body Styling */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
-  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-h1 {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 2.5rem;
-  color: #222;
-}
-
-/* Input Field - Updated */
+/* Search Box Styling */
 #searchInput {
-  width: 100%;
+  width: 90%; /* Adjust for smaller screens */
   max-width: 400px;
   padding: 12px 15px;
   margin: 20px auto;
-  display: block;
-  border: none; /* Remove all borders */
-  border-bottom: none; /* Ensure no bottom border */
+  border: none; /* Remove borders */
   border-radius: 8px;
   font-size: 16px;
   outline: none;
@@ -32,99 +27,94 @@ h1 {
 }
 
 #searchInput:focus {
-  background-color: #ffffff; /* Optional focus effect */
-  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Optional focus glow */
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
 }
 
-
-/* Button */
+/* Search Button Styling */
 button {
-  display: block;
-  margin: 10px auto;
-  padding: 10px 20px;
-  font-size: 16px;
-  color: #fff;
   background-color: #007bff;
+  color: #fff;
   border: none;
+  padding: 10px 20px;
   border-radius: 8px;
+  font-size: 16px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #0056b3;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* User Details */
+/* User Details Section */
 #userDetails {
-  max-width: 500px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  font-size: 16px;
-  line-height: 1.5;
-  color: #444;
-}
-
-/* No Data Message */
-.no-data {
-  text-align: center;
-  color: #888;
-  font-style: italic;
+  margin-top: 20px;
   padding: 10px;
-}
-
-/* Suggestions Container */
-#suggestions {
-  position: absolute;
-  top: 120px;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 90%; /* Adjust for smaller screens */
   max-width: 400px;
-  width: 100%;
   background-color: #ffffff;
-  border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  max-height: 200px;
-  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Individual Suggestion Item */
+.no-data {
+  color: #888;
+  font-size: 14px;
+}
+
+/* Suggestions Section */
+#suggestions {
+  margin-top: 10px;
+  width: 90%; /* Adjust for smaller screens */
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .suggestion-item {
-  padding: 10px 15px;
-  border-bottom: 1px solid #f0f0f0;
+  padding: 8px 12px;
   cursor: pointer;
-  font-size: 16px;
-  color: #333;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.suggestion-item:last-child {
-  border-bottom: none;
+  transition: background-color 0.3s ease;
 }
 
 .suggestion-item:hover {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #f1f1f1;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  #searchInput {
-    width: 90%;
-  }
-
+/* Media Query for Small Screens (600px) */
+@media (max-width: 600px) {
+  #searchInput,
+  #userDetails,
   #suggestions {
-    width: 90%;
+    width: 95%; /* Slightly smaller for more padding on the sides */
   }
 
-  #userDetails {
-    width: 90%;
+  button {
+    width: 95%; /* Full-width button for smaller screens */
+    font-size: 14px; /* Reduce font size slightly */
+  }
+}
+
+/* Media Query for Extra Small Screens (430px) */
+@media (max-width: 430px) {
+  #searchInput,
+  #userDetails,
+  #suggestions {
+    width: 100%; /* Full width for very small screens */
+    font-size: 14px; /* Smaller font size for inputs */
+  }
+
+  button {
+    width: 100%; /* Full-width button for small screens */
+    font-size: 13px; /* Further reduce font size */
+    padding: 8px 15px; /* Adjust padding */
+  }
+
+  #userDetails,
+  #suggestions {
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); /* Softer shadow for compact displays */
   }
 }
