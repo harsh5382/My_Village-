@@ -1,6 +1,6 @@
 [
   {
-    "name": "Harsh Baldevbha",
+    "name": "Harsh Baldevbhai",
     "mosal": "Gam: Kontiya, Sakh: Aal, Gaful gova",
     "sasru": "Gam: dashela, Sakh: Ghaghor, Devraj Gaful",
     "Wife": "Bhoomi Ben",
@@ -170,7 +170,7 @@
   {
     "name": "Saharbhai Kalabhia",
     "mosal": "Gam: Nadon, Sakh: Ghabhlya, Modan Bhai",
-    "sasru": "Gam: Karjesan, Sakh: luni, Bhikha Bhai",
+    "sasru": "Gam: Karjesan, Sakh: luni, Bhikha Abha",
     "Wife": "Isha Ben",
     "Father Name": "Kala Bhai",
     "Mother Name": "Kuver Ben",
@@ -195,7 +195,7 @@
   {
     "name": "Vikrambhai Kalabhia",
     "mosal": "Gam: Nadon, Sakh: Ghabhlya, Modan Bhai",
-    "sasru": "Gam: Julasan, Sakh: Makana, Kanu Bhai",
+    "sasru": "Gam: Julasan, Sakh: Makana, Kanu Gova",
     "Wife": "Jyoshna Ben",
     "Father Name": "Kala Bhai",
     "Mother Name": "Kuver Ben",
@@ -204,14 +204,14 @@
   },
   {
     "name": "Aryanbhai Vikrambhai",
-    "mosal": "Gam: Julasan, Sakh: Makwana, Kanu Bhai",
+    "mosal": "Gam: Julasan, Sakh: Makwana, Kanu Gova",
     "Father Name": "Vikram Bhai",
     "Mother Name": "Jyoshna Ben"
   },
   {
     "name": "Babubhai Kalabhia",
     "mosal": "Gam: Nadon, Sakh: Ghabhlya, Modan Bhai",
-    "sasru": "Gam: Karsanpura(Chuvar), Sakh: Makwana, Ranchhod Bhai",
+    "sasru": "Gam: Karsanpura(Chuvar), Sakh: Makwana, Ranchhod Lakhaman",
     "Wife": "Chetna Ben",
     "Father Name": "Kala Bhai",
     "Mother Name": "Kuver Ben",
@@ -220,23 +220,23 @@
   },
   {
     "name": "Vanshbhai Babubhai",
-    "mosal": "Gam: Karsanpura(Chuvar), Sakh: Makwana, Ranchhod Bhai",
+    "mosal": "Gam: Karsanpura(Chuvar), Sakh: Makwana, Ranchhod Lakhman",
     "Father Name": "Babu Bhai",
     "Mother Name": "Chetna Ben"
   },
   {
     "name": "Kanjibhai Kalabhia",
     "mosal": "Gam: Nadon, Sakh: Ghabhlya, Modan Bhai",
-    "sasru": "Gam: Ambaipura, Sakh: Hathod, Lila Bhai",
+    "sasru": "Gam: Ambaipura, Sakh: Hathod, Lila Hira",
     "Wife": "Bhavu Ben",
     "Father Name": "Kala Bhai",
     "Mother Name": "Kuver Ben",
-    "Son": "Oam Bhai",
+    "Son": "Om Bhai",
     "Daughter": "Pari Ben"
   },
   {
-    "name": "Oambhai Kanjibhai",
-    "mosal": "Gam: Ambaipura, Sakh: Hathod, Lila Bhai",
+    "name": "Ombhai Kanjibhai",
+    "mosal": "Gam: Ambaipura, Sakh: Hathod, Lila Hira",
     "Father Name": "Kanji Bhai",
     "Mother Name": "Bhavu Ben"
   },
